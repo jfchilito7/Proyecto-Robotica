@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto mono', monospace;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+a {
+    text-decoration: none;
+    display: inline;
+    color: #000;
+    font-size: 1.8rem;
+}
+
+.home-body {
+    height: 87.5vh;
+    width: 100vw;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.grid__container {
+    max-width: 100%;
+    margin: auto;
+}
+
+.header-icons-container {
+    width: 100%;
+    height: 50px;
+    display: grid;
+    background-color: #e1c91f;
+}
+
+.icons {
+    width: 300px;
+    height: auto;
+    display: flex;
+    justify-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: end;
+    margin-right: 50px;
+}
+
+.icons span {
+    color: white;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+
+.nav-logo-container {
+    margin-left: 50px;
+}
+
+.nav-logo-container img {
+    width: 120px;
+    margin-top: 10px;
+}
+
+.profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+
+.profile-link a {
+    color: black;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+.home-main {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    height: 100%;
+    margin-top: 30px;
+    background-image: url('/Users/juanfelipechilito/Desktop/ProyectoRobotica/paginaweb/Assets/img/princi3.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.home-main section {
+    display: grid;
+    grid-column: 2;
+    justify-items: center;
+    height: 350px;
+    margin-top: 80px;
+}
+
+.home-main_text {
+    font-family: 'Roboto mono', monospace;
+    font-size: 6.0rem;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: white;
+    text-shadow: 1px 0 5px black;
+    text-align: center;
+}
+
+.btn-home {
+    width: 150px;
+    height: 70px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+    font-family: 'Roboto mono', monospace;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px black;
+    background: rgb(20 22 26);
+}
+
+.video-wrap {
+    margin-top: 35px;
+    margin-left: 240px;
+}
+
+
+#snap {
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.8rem;
+    font-family: 'Roboto mono', monospace;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px black;
+    background: rgb(20 22 26);
+}
+
+.card{
+    width: 500px;
+    background: linear-gradient(rgb(184, 168, 0),rgb(255, 221, 0));
+    box-shadow: 5px 5px 15px #8791c4, -5px -5px 15px #d7e7ff;
+    border-radius: 20px;
+    display: block;
+    min-width: 0;
+    word-wrap: break-word;
+    padding: 3rem; 
+    margin-left: 15px;
+    transition: 0.3s;
+}
+
+.card:hover{
+    transform: translateY(-8px);
+}
+  .photo {
+    margin-left: 120px;
+    width: 200px;
+    height: auto;
+  }
+
+  .profession {
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    line-height: 24px;
+    box-sizing: border-box;
+    color: white;
+  }
+  .name {
+    font-size: 21px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-weight: 500;
+    line-height: 26px;
+    box-sizing: border-box;
+    color: white;
+  }
+  .description {
+    margin-top: 0;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    color: white;
+  }
+  .social-media {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+  .featured_container2{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 10px;
+    padding: 20px;
+    margin: 15px 30px;
+}
+
+.section-title{
+    font-size: 2.5rem;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.featured_container{
+    display: grid;
+    grid-template-columns: (1,1fr);
+    gap: 10px;
+    /*padding: 20px;*/
+    margin: 15px 10px;
+}
+
+.week{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+    background: linear-gradient(rgb(184, 168, 0),rgb(255, 221, 0));
+    border-radius: 12px;
+    transition: 0.3s;
+    
+}
+.week:hover{
+    transform: translateY(-8px);
+}
+
+.week_number{
+    position: absolute;
+    left: 8px;
+    background-color: black;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 40px;
+    letter-spacing: 1.6px;
+
+}
+.explicacion{
+    font-size: 30px;
+    letter-spacing: 1.6px;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+}
+
+.img-container-person {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background: linear-gradient(145deg, #ffffff 0%, #eaebee 100%);
+    box-shadow: 4px 4px 15px #8791c4;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+
+  .photo-person {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+  }
